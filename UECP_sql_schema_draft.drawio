@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-19T06:57:08.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="tpFgAoT7jFbhpMgw5mT2" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T01:54:41.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Xz_OFkm7hZGDvO6VfYEk" version="21.3.5" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="3504" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3447" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,7 +312,7 @@
           <mxGeometry x="-1490" y="-700" width="670" height="35" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-11" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
-          <mxGeometry x="-1340" y="750" width="670" height="35" as="geometry" />
+          <mxGeometry x="-1410" y="620" width="670" height="35" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-13" value="1. car enters and is subject to entry LPR&lt;br&gt;2. create entering_car_record row entry&lt;br&gt;3. create vehicle_flow_timestamp row entry&lt;br&gt;4. push 进 timestamp as a MV and entering_car_record_id as a FK in vehicle_flow_timestamp_log row entry&amp;nbsp;&lt;br&gt;5. car exits and is subject to exit LPR&lt;br&gt;6. create exiting_car_record row entry&lt;br&gt;6. find the &lt;i&gt;latest&lt;/i&gt;&amp;nbsp;PK within entering_car_record table that matches the lpr_reading.&lt;br&gt;7.&amp;nbsp; Locate that PK within the vehicle_flow_timestamp_log&#39;s entering_car_record_index_id FK&lt;br&gt;8. Push exiting_car_record_id as FK in that specifc vehicle_flow_timestamp_log row entry&lt;br&gt;9.automatically calculate total time in secs and hours, and the bill" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
           <mxGeometry x="-760" y="-562" width="280" height="275" as="geometry" />
@@ -748,7 +748,7 @@
           <mxGeometry x="-1425" y="-190" width="840" height="510" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-137" value="pklot_overview" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1335" y="450" width="260" height="150" as="geometry" />
+          <mxGeometry x="-1505" y="355" width="260" height="150" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-138" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="J8i6EdS4FgNd71ECk8Dx-137">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -803,7 +803,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-147" value="pklot_8" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-985" y="350" width="260" height="180" as="geometry" />
+          <mxGeometry x="-1205" y="355" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-148" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="J8i6EdS4FgNd71ECk8Dx-147">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -871,7 +871,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-160" value="pklot_9" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-985" y="540" width="260" height="180" as="geometry" />
+          <mxGeometry x="-930" y="355" width="260" height="180" as="geometry" />
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-161" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="J8i6EdS4FgNd71ECk8Dx-160">
           <mxGeometry y="30" width="260" height="30" as="geometry" />
@@ -938,28 +938,30 @@
             <mxRectangle width="230" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J8i6EdS4FgNd71ECk8Dx-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J8i6EdS4FgNd71ECk8Dx-246" target="J8i6EdS4FgNd71ECk8Dx-255">
+        <mxCell id="J8i6EdS4FgNd71ECk8Dx-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J8i6EdS4FgNd71ECk8Dx-246" target="J8i6EdS4FgNd71ECk8Dx-255">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1035" y="615" />
-              <mxPoint x="-1035" y="525" />
+              <mxPoint x="-655" y="430" />
+              <mxPoint x="-655" y="550" />
+              <mxPoint x="-1225" y="550" />
+              <mxPoint x="-1225" y="430" />
             </Array>
-            <mxPoint x="-1020" y="620" as="sourcePoint" />
-            <mxPoint x="-1075" y="520" as="targetPoint" />
+            <mxPoint x="-1225" y="550" as="sourcePoint" />
+            <mxPoint x="-1280" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J8i6EdS4FgNd71ECk8Dx-239" target="J8i6EdS4FgNd71ECk8Dx-255">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1035" y="425" />
-              <mxPoint x="-1035" y="525" />
+              <mxPoint x="-1235" y="430" />
+              <mxPoint x="-1235" y="430" />
             </Array>
-            <mxPoint x="-965" y="625" as="sourcePoint" />
-            <mxPoint x="-1055" y="535" as="targetPoint" />
+            <mxPoint x="-1170" y="555" as="sourcePoint" />
+            <mxPoint x="-1260" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J8i6EdS4FgNd71ECk8Dx-260" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="-995" y="340" width="280" height="390" as="geometry" />
+          <mxGeometry x="-1215" y="340" width="570" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
